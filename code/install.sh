@@ -37,6 +37,12 @@ then
   RUN=1
 fi
 
+if [ "$(uname -s)" = "Darwin" ]
+then
+  bash $CURDIR/_install-osx.sh
+  RUN=1
+fi
+
 #
 # Unknown system
 #

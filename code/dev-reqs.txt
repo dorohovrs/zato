@@ -1,0 +1,13 @@
+# Must be first:
+-e ./zato-common/
+
+-e ./zato-agent/
+-e ./zato-broker/
+-e ./zato-cli/
+-e ./zato-client/
+-e ./zato-cy/
+-e ./zato-distlock/
+-e ./zato-scheduler/
+-e ./zato-server/
+-e ./zato-web-admin/
+-e ./zato-zmq/
